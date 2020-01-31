@@ -1,0 +1,57 @@
+#awesome-navbar {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+
+  li {
+    padding: 1rem;
+    cursor: pointer;
+  }
+}
+
+#awesome-home-page{
+  background-image: url("../resources/images/blue-home-icon-2.png");
+  img {
+    width: 30px;
+  }
+}
+
+#awesome-navbar-div{
+  width: 80vw;
+    align-items: center;
+    margin: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+  #awesome-image {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../resources/images/design-cover.jpeg");
+  }
+}
+
+#awesome-content {
+  background: black;
+  opacity: 60%;
+
+  p {
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    margin-left: 5%;
+  }
+}

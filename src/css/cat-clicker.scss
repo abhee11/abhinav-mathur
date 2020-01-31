@@ -1,0 +1,40 @@
+$primary-color: #007bff;
+
+.awesome-cat-div {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        height: 426px;
+        width: 640px;
+    }
+}
+
+.awesome-cat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    p{
+        color: #000;
+    }
+}
+
+.selected-cat {
+    border: 2px solid $primary-color;
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6)
+}
+
+.awesome-cat-thumbnail {
+    width: 300px;
+    height: 600px;
+    overflow: auto;
+    .row {
+        flex-direction: column;
+        img {
+            width: 171px;
+        }
+        p{
+            color: #000;
+        }
+    }
+}
