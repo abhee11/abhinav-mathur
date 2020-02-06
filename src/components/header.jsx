@@ -2,7 +2,6 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import { homeIcon } from "../resources/images/blue-home-icon-2.png";
 import { Image } from "react-bootstrap";
 
 export const Header = () => {

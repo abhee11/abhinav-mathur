@@ -6,9 +6,9 @@ import catImg3 from "../resources/images/cat3.jpg";
 import catImg4 from "../resources/images/cat4.jpg";
 import catImg5 from "../resources/images/cat5.jpg";
 
-import { Image, Button, Row, Col, Container } from "react-bootstrap";
+import { Image, Row, Col, Container } from "react-bootstrap";
 
-export default class CatClicker extends React.Component {
+export default class CatClicker extends Component {
   constructor(props) {
     super(props);
     this.state = {
