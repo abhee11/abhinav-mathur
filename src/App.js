@@ -6,11 +6,12 @@ import { Home } from "./components/home";
 import { Header } from "./components/header";
 import { Contact } from "./components/contact";
 
+import "./css/base.scss";
 import "./css/header.scss";
-import "./css/gallery.scss";
 import "./css/cat-clicker.scss";
 import "./css/story-so-far.scss";
-import "./css/base.scss";
+import "./css/gallery.scss";
+import "./css/who-is-this-guy.scss";
 
 import { StorySoFar } from "./components/story-so-far";
 import CatClicker from "./components/cat-clicker";
@@ -28,7 +29,9 @@ function App() {
           <Route path="/gallery">
             <Gallery />
           </Route>
-          <Route path="/who-is-this-guy"><WhoIsthisGuy /></Route>
+          <Route path="/who-is-this-guy">
+            <WhoIsthisGuy />
+          </Route>
 
           <Route path="/story-so-far">
             <StorySoFar />

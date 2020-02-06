@@ -1,8 +1,4 @@
 import React from "react";
-import { Header } from "./header";
-
-import { Image } from "react-bootstrap";
-import designCover from "../resources/images/design-cover.jpeg";
 
 export const Home = () => {
   return (
